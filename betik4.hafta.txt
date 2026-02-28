@@ -1,0 +1,49 @@
+url='http://www.milligazate.com.tr/arsiv/2021-07-1'
+def tarih_yaz(gun):
+    for i in range (1,gun+1,1):
+    if i<10:
+        print(url+'0'+str(i))
+    else:
+        print(url+ str(i))
+tarih_yaz(28) ##hatice nisa kızlbağlı
+
+
+
+def duzgunlestir(arr):
+    for i in arr:
+        x(i.split('-'))
+        isim=''
+        for parca in x :
+            isim+=(parca.strip())
+        print('======')
+        print(isim) ##hatice nisa kızlbağlı
+
+from xyz import*
+r=['Anka-ra','istan-bul','bur-sa',]
+duzenlestir(iller)duzenlestir(iller) ##hatice nisa kızlbağlı
+
+
+gulsenem='12:16 ABD ve israil irana saldırdı! Netanyahudan ilk açıklama'
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')print(tkm)
+print(tkm2)
+for i in tkm2:
+  print(i)
+gulsenem2=["12:16 ABD ve İsrail İrana saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İranı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+for gul in gulsenem2:
+  ayir=gul.split(' ')
+  aziz=' '
+  for i in range(len(ayir)):
+    if i==0 :
+      pass
+    elif ayir[i].startswith('THY'):
+      ayir[i].replace('THY','TKMY')
+    else:
+        aziz+=ayir[i]+' '
+  print(aziz)s
